@@ -1,0 +1,18 @@
+<html>
+  <head></head>
+  <body>
+    <p>
+      Please enter a message and a shift value.
+    </p>
+    <form>
+      <p>Message: <input type='text' name='input' /></p>
+      <p>Shift: <input type='text' name='shift' /></p>
+      <p><input type='submit' value='Encode!' /></p>
+    </form>
+    <p>
+        <% unless output == nil %>
+            <%= output %>
+        <% end %>
+    </p>
+  </body>
+</html>
